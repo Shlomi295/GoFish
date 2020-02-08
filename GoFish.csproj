@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="Go Fish\BuildProcessTemplates\AzureContinuousDeployment.11.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Go Fish\BuildProcessTemplates\DefaultTemplate.11.1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Go Fish\BuildProcessTemplates\LabDefaultTemplate.11.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+    <None Update="Go Fish\BuildProcessTemplates\UpgradeTemplate.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
